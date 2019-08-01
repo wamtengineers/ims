@@ -49,8 +49,8 @@ function check_admin_cookie(){
 	return false;
 }
 /*--------------Image Type Validation--------------*/
-$file_upload_root="./uploads/".$_SESSION[ "current_school_id" ].'/';
-$file_upload_url=$site_url."/uploads/".$_SESSION[ "current_school_id" ].'/';
+$file_upload_root="./uploads/".$_SESSION[ "session_school_id" ].'/';
+$file_upload_url=$site_url."/uploads/".$_SESSION[ "session_school_id" ].'/';
 $imagetypes=array("image/bmp","image/x-windows-bmp","image/jpg","image/jpeg","image/pjpeg","image/gif","image/png","image/x-png");
 $ziptypes=array("rar","zip");
 $month_array=array("Januray","February","March","April","May","June","July","August","September","October","November","December");
