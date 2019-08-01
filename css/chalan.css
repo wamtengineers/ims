@@ -1,0 +1,168 @@
+@charset "utf-8";
+@font-face {
+font-family: 'free3of9';
+src: url('../fonts/free3of9.eot');
+src: url('../fonts/free3of9.eot') format('embedded-opentype'),
+	 url('../fonts/free3of9.woff2') format('woff2'),
+	 url('../fonts/free3of9.woff') format('woff'),
+	 url('../fonts/free3of9.ttf') format('truetype'),
+	 url('../fonts/free3of9.svg#free3of9') format('svg');
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+h1 {
+    font-size: 16px;
+}
+h2 {
+    font-size: 17px;
+}
+body {
+    font-family: Arial;
+    font-size: 12px;
+	margin:0;
+}
+.chalan{ padding:15px; border-left:dashed 3px; border-right:dashed 3px}
+.first-chalan{ border-left-color:transparent;}
+.last-chalan{ border-right-color:transparent;}
+.signature {
+    height: 40px;
+}
+.chalan_number td {
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.chalan_number {
+    padding: 16px 0;
+}
+#chalan_date, #chalan_number, #chalan_property_no, #chalan_name, #chalan_father_name {
+    border-bottom: 1px solid #000;
+    padding-bottom: 3px;
+	font-weight:normal;
+	font-family:Verdana,Times,serif;
+	line-height:17px;
+}
+#chalan_property_market{ font-weight:normal;
+	font-family:Verdana,Times,serif;
+	line-height:17px;}
+.chalan_particulars td {
+    font-weight: bold;
+    padding: 5px 0;
+	line-height:24px;
+}
+.chalan_particulars {
+    padding-bottom: 0px;
+	font-size:12px;
+}
+.chalan_number{ font-size:12px;}
+.chalan_details {
+    border-collapse: collapse;
+}
+.chalan_details td {
+    border: 1px solid;
+    padding: 5px;
+}
+
+.header > img {
+    float: left;
+    width: auto;
+	height:80px;
+}
+.header {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.header > h1 {
+    font-family: Georgia;
+    font-size: 18px;
+    padding-bottom: 6px;
+    padding-top: 3px;
+}
+#wrapper{ border-collapse:collapse; width:100%; page-break-after:always;}
+.chalan:last-child{ border-right: none;}
+.chalan_particulars td {
+    padding: 0;
+}
+
+.logo {
+    background: url("uploads/config/upload-20150419011242-4.jpg") no-repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+    display: block;
+    float: left;
+    height: 80px;
+    width: 66px;
+}
+.logo img{ width:100%;}
+.chalan_number{ padding-bottom:0;}
+.chalan_particulars td{ vertical-align:bottom;}
+#chalan_name{ }
+.blank_space{height: 40px !important}
+
+.header > h2 {
+    font-family: Georgia;
+}
+h2 span {
+    border: 1px solid #000;
+    border-radius: 4px;
+    display: inline-block;
+    line-height: 18px;
+    margin-bottom: 8px;
+    padding: 0 5px;
+    text-transform: uppercase;
+}
+.header {
+    padding-bottom: 10px;
+}
+#chalan_number {
+    width: 10%;
+}
+
+.date {
+    display: block;
+    float: right;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 0;
+    text-align: center;
+}
+.barcode p{ 
+	font-family: 'free3of9';
+}
+
+.barcode {
+    font-size: 40px;
+	margin-top:10px;
+}
+.barcode p {
+    font-family: "free3of9";
+    line-height: 32px;
+    margin: 0;
+}
+.barcode > span {
+    display: block;
+    font-size: 8px;
+}
+@media print{
+#printblankbtn{display:none; }
+/*##PRINT*/
+/*#wrapper{ }
+ *, .chalan_details *.print .noprint{ color:transparent !important;}
+.logo{ background:none;
+}
+.logo img{ display: none;}
+#chalan_date, #chalan_property_no, #chalan_property_market, #chalan_name, #chalan_father_name, .chalan_details *.print, .chalan_details *.print * {
+    border-color: #000 !important;
+    color: #000000 !important;
+}
+#chalan_date, #chalan_number, #chalan_property_no, #chalan_property_market, #chalan_name, #chalan_father_name, .chalan_details *.print, .chalan_details *.print * {
+	border-color: #000 !important;
+    color: transparent !important;
+}
+#wrapper{ height:778px; background:#; overflow:hidden; margin-left:20px;page-break-after: always;}
+.header * { display:none;}
+.chalan{ padding:15px 20px;}
+.blank_space{ height:85px !important;}
+#chalan_name, #chalan_property_market, #chalan_date, #chalan_property_no, #chalan_name, #chalan_father_name{ line-height:12px;}
+.chalan_number{ padding-top:105px;}*/
+/*PRINT##*/} 

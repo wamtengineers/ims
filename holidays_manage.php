@@ -1,0 +1,53 @@
+<?php
+include("inc/db.php");
+include("inc/utility.php");
+include("inc/session.php");
+include("inc/paging.php");
+define("APP_START", 1);
+$filename = 'holidays_manage.php';
+include("inc/admin_type_access.php");
+$tab_array=array("list", "add", "edit", "status", "delete", "bulk_action", "send_email");
+if(isset($_REQUEST["tab"]) && in_array($_REQUEST["tab"], $tab_array)){
+	$tab=$_REQUEST["tab"];
+}
+else{
+	$tab="list";
+}
+
+switch($tab){
+	case 'add':
+		include("modules/holidays/add_do.php");
+	break;
+	case 'edit':
+		include("modules/holidays/edit_do.php");
+	break;
+	case 'delete':
+		include("modules/holidays/delete_do.php");
+	break;
+	case 'status':
+		include("modules/holidays/status_do.php");
+	break;
+	case 'bulk_action':
+		include("modules/holidays/bulkactions.php");
+	break;
+}
+?>
+<?php include("inc/header.php");?>
+		<div class="main-content-inner">
+		  <?php
+            switch($tab){
+                case 'list':
+                    include("modules/holidays/list.php");
+                break;
+                case 'add':
+                    include("modules/holidays/add.php");
+                break;
+                case 'edit':
+                    include("modules/holidays/edit.php");
+                break;
+            }
+          ?>
+    	</div>
+  	</div>
+</div>
+<?php include("inc/footer.php");?>

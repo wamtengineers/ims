@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+body{ font-family: 'Lato', sans-serif; margin:0px; padding:0px;}
+.wrapper{ width:336px; margin:0 auto; background:url(images/bg.jpg) repeat; overflow:hidden; height:192px; position:relative; border:solid 1px #333;}
+@font-face {
+font-family: 'free3of9';
+src: url('../fonts/free3of9.eot');
+src: url('../fonts/free3of9.eot') format('embedded-opentype'),
+	 url('../fonts/free3of9.woff2') format('woff2'),
+	 url('../fonts/free3of9.woff') format('woff'),
+	 url('../fonts/free3of9.ttf') format('truetype'),
+	 url('../fonts/free3of9.svg#free3of9') format('svg');
+}
+
+.card_heading{ width:100%; float:left;}
+.heading{ margin-bottom:10px;}
+.heading h1::after {
+    border-color: transparent transparent transparent #018987;
+    border-style: solid;
+    border-width: 26px 0 0 20px;
+    content: "";
+    height: 0;
+    padding: 0;
+    position: absolute;
+    right: -18%;
+    width: 0;
+}
+.heading h1 {
+    background: #018987;
+    color: #fff;
+    font-size: 12px;
+    line-height: 26px;
+    padding: 0 7px;
+    position: relative;
+}
+	
+.card_heading {
+    float: left;
+    width: 30%;
+}
+
+.card_logo img {
+    width:100%;
+	margin:0 auto;
+}
+.card_logo {
+    padding: 0 4px 0 12px;
+}
+
+.card_heading p {
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 10px;
+    margin: 0;
+    padding: 0 0 0 6px;
+    text-align: center;
+}
+.card_logo {
+    margin-bottom: 10px;
+}
+.logo_area {
+}
+.card_image {
+    background: #018987;
+    float: right;
+    height: 600px;
+    width: 22%;
+}
+
+
+.image {
+    background: #000;
+    border: 3px solid #dedcdd;
+    height: 90px;
+    margin-bottom: 8px;
+    margin-left: -38%;
+    margin-top: 33px;
+    position: relative;
+    width: 90px;
+}
+.image img{ width:100%; height:100%; object-fit: cover;}
+.student_id {
+    color: #fff;
+    font-size: 7px;
+    font-weight: bold;
+    text-transform: uppercase;
+	margin-bottom:3px;
+	text-shadow: 3px 2px 4px #666;
+}
+.img_box {
+    padding: 0 7px;
+}
+.phone {
+    color: #fff;
+    font-size: 7px;
+    font-weight: bold;
+    padding: 0px 0 5px 0px;
+    text-shadow: 3px 2px 4px #666;
+}
+
+
+.card_details {
+    box-sizing: border-box;
+    float: left;
+    margin-top: 40px;
+    padding: 0 6px;
+    width: 43%;
+}
+.detail {
+    font-size: 10px;
+    font-weight: normal;
+    margin-bottom: 4px;
+}
+.detail > p {
+    margin: 6px 0px ;
+}
+
+.detail > span {
+    color: #0167aa;
+}
+.barcode p{ 
+	font-family: 'free3of9';
+}
+
+.barcode {
+    bottom: 7px;
+    font-size: 40px;
+    left: 33%;
+    position: absolute;
+}
+.barcode p {
+    font-family: "free3of9";
+    line-height: 32px;
+    margin: 0;
+}
+.barcode > span {
+    display: block;
+    font-size: 8px;
+}

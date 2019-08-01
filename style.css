@@ -1,0 +1,575 @@
+@charset "utf-8";
+/* CSS Document */
+
+.form-control.custom {
+	height:30px;
+}
+.input-group-addon.custom {
+	padding: 8px 12px;
+	width: auto;
+}
+.inline-block {
+	display:inline-block;
+}
+.select-box .form-control {
+	width:80%;
+}
+.infobox {
+	text-align:center;
+	height:auto;
+}
+.infobox .infobox-content {
+	max-width:100%;
+}
+.project-icon {
+	display: block;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+ .project-icon::before {
+ content: "";
+ display: block;
+ padding-top: 50%;
+}
+.project-icon > img {
+	display: block;
+	left: 50%;
+	position: absolute;
+	text-align: center;
+	top: 20%;
+	transform: translate(-50%);
+}
+.search .form-control.search-query {
+	margin: 0;
+}
+.modal-footer .actions {
+	text-align:left;
+}
+.modal-footer td {
+	border-left: medium none !important;
+	border-right: medium none !important;
+}
+.modal-footer .btn {
+	padding:0 12px;
+}
+.help-block.clr {
+	clear:both;
+}
+.nav-list > li .submenu > li a > .menu-icon {
+	display:block;
+}
+.bottom-20 {
+	margin-bottom: 20px;
+}
+.bottom-10 {
+	margin-bottom: 10px;
+}
+.new-form-2 select {
+	height:34px;
+}
+.new-form-2 textarea {
+	height:36px;
+}
+.bottom-30 {
+	margin-bottom: 30px;
+}
+.nav-list > li a > .arrow {
+	font-size:16px;
+	right:6px;
+}
+input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], textarea, select {
+	color:#333;
+}
+a:hover {
+	text-decoration: none;
+}
+.inputError {
+	color: #ff0000;
+	text-align: center;
+}
+/*.footer {
+
+    bottom: 0;
+
+    padding-top: 75px;
+
+    position: fixed;
+
+    width: 100%;
+
+}*/
+
+.infobox-dark {
+	margin:0;
+}
+.form-group .input-group-addon {
+	height: 34px;
+	width: 45px;
+}
+.form-horizontal .form-group {
+	margin-left: 0;
+	margin-right: 0;
+}
+.col-md-6 > label {
+}
+.form-group input {
+	width: 100%;
+}
+.form-group .col-sm-6 .datepicker {
+	width: 89% !important;
+}
+/*.form-group > .row .col-sm-9 .datepicker {
+	width: 94%;
+}*/
+.page-header h1 {
+	margin:0 !important;
+}
+.form-group .col-sm-9 select {
+	width: 100%;
+}
+h4.bg-head {
+	background: #f5f5f5 none repeat scroll 0 0;
+	border-bottom: 1px solid;
+	padding: 10px;
+}
+.infobox.infobox-blue2.custom-percent {
+	width: 100%;
+	border:none;
+	background:#f5f5f5;
+}
+.custom-percent .infobox-progress {
+	width: 25%;
+	text-align: right;
+}
+.custom_select {
+	height:34px;
+	vertical-align:top;
+	width:124px;
+	margin:0 3px 0 0;
+}
+.date-from.form-group {
+	text-align: left;
+	width: 164px;
+}
+.date-from .datepicker {
+	display: inline-block;
+	height: 34px;
+	margin: 0 -3px !important;
+	width: 120px;
+}
+.date-from .input-group-addon {
+	display: inline-block;
+	vertical-align: top;
+}
+.margin-top {
+	margin-bottom: 0;
+	margin-top: 8px;
+}
+/***********Student Records**********/
+
+.student-img {
+	display:none;
+}
+.ad-form div label {
+	padding: 3px 0 0 0;
+	color:#393939;
+}
+.fess-section div label {
+	padding: 3px 0 0 0;
+	color:#393939;
+}
+.set-no h1 {
+	float: left;
+	margin: 0px;
+	color:#393939;
+	line-height: 37px;
+}
+.set-no input {
+	float: right;
+	margin: 0;
+	padding: 4px 13px;
+	background-color:rgba(122, 123, 151, 0.3);
+	color: #000;
+	width: 130px;
+	font-size: 18px;
+}
+.student-link ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.student-link li {
+	float: left;
+}
+.student-link li a {
+	display: block;
+	padding: 0 9px 0 0;
+	font-size: 12px;
+	color:#438EB9;
+}
+.student-link li a:hover {
+}
+.student-record h1 {
+	margin: 0px;
+	color:#393939;
+}
+.record-date {
+	margin: 0 3px 0 0;
+	float: right;
+	font-size: 20px;
+	padding: 3px 10px;
+	background: #ddd;
+}
+.passport > img {
+	width: 87px;
+}
+.passport {
+	position: absolute;
+	right: 0;
+}
+.new-form-1 {
+	padding: 10px 0 30px 0;
+}
+.new-form-2 {
+	padding: 0px 0 30px 0;
+}
+.date {
+	width: 42px !important;
+}
+.page-header {
+	padding-bottom:10px;
+}
+.filter-btn, .links-btn {
+	display:none;
+}
+.btn-new {
+	padding:2px 12px;
+}
+
+
+
+/*****************************/
+
+@media (max-width: 1200px) {
+ .form-group .col-sm-6 .datepicker {
+ width: 84% !important;
+}
+ .form-group > .row .col-sm-9 .datepicker {
+ width: 92%;
+}
+ .custom_select {
+ width: 30%;
+}
+}
+ @media (max-width: 991px) {
+ .custom_select {
+ width: 100%;
+ margin: 0 0 6px 0;
+}
+ .btn.btn-sm.btn-primary.button {
+ width: auto;
+ margin: 0 0 6px 0;
+}
+ .adm-level img {
+ display:none;
+}
+ .student-img {
+ display:block;
+}
+ .student-img img {
+ width:120px;
+}
+}
+ @media (max-width: 767px) {
+ .search {
+ margin-top: 10px;
+}
+ .config-form input[type="text"] {
+ width: 100%;
+}
+ .form-group .col-sm-6 .datepicker {
+ width: 90% !important;
+}
+ .form-group > .row .col-sm-9 .datepicker {
+ width: 90%;
+}
+ .form-group .input-group-addon {
+ width: 5%;
+}
+ .form-group input, .form-group select {
+ margin-bottom: 20px;
+}
+ .form-group {
+ margin: 0;
+}
+ .set-no {
+ margin: 0 0 12px;
+}
+ .student-link {
+ margin: 0 0 12px;
+}
+ .student-record {
+ margin: 0 0 12px;
+}
+ .student-img img {
+ width:80px;
+}
+ .page-header h1 {
+ margin: 0 0 10px 0 !important;
+}
+ .new-form-1 {
+ padding: 10px 0 0px 0;
+}
+ .filter-btn {
+ display:block;
+ text-align: right;
+}
+ .open-filter {
+ display:none;
+ clear:both;
+ padding-top: 10px;
+}
+ .filter-btn .fa.fa-filter {
+ background: #438eb9;
+ border: 1px solid;
+ color: #fff;
+ cursor: pointer;
+ font-size: 22px;
+ padding: 5px 10px;
+}
+ .links-btn {
+ display:block;
+ text-align:right;
+}
+ .links-btn i {
+ background: #438eb9;
+ border: 1px solid;
+ color: #fff;
+ cursor: pointer;
+ font-size: 22px;
+ padding: 5px 6px;
+}
+ .links-open {
+ display:none;
+ clear: both;
+}
+ .set-no input {
+ margin: 0 0 0 10px;
+ padding: 0px 8px;
+ float: left;
+}
+ .set-no h1 {
+ line-height:29px;
+}
+ .filter-btn.active .fa.fa-filter, .links-btn.active .fa.fa-line-chart {
+ background: #62a8d1;
+}
+ .new-form-2 label {
+ margin-top: 10px;
+}
+ .passport {
+ display:none;
+}
+ .new-form-2 .selct-bx {
+ float: none !important;
+ width: 100%;
+}
+ .passport {
+ float: right;
+ margin-top: 22px;
+ position: relative;
+ display:block;
+}
+ .set-no h1 {
+ font-size: 23px;
+}
+ .btn-new {
+ margin-top:10px;
+}
+ .clear {
+ clear:both;
+}
+}
+ @media (max-width: 640px) {
+ .dataTables_wrapper {
+ overflow: scroll;
+}
+ .custom_select {
+ margin: 0 0 5px !important;
+}
+}
+ @media (max-width: 420px) {
+ .form-group .col-sm-6 .datepicker {
+ width: 86% !important;
+}
+ .form-group > .row .col-sm-9 .datepicker {
+ width: 86%;
+}
+ .btn.btn-sm.btn-primary.button {
+ width: 100%;
+ margin: 0 0 6px 0;
+}
+ .page-header h1 {
+ font-size:20px;
+}
+ .chak-bar-1 small {
+ display: none;
+}
+ .filter-btn .fa.fa-filter, .links-btn i {
+ font-size:18px;
+}
+ .set-no input {
+ width:70px;
+}
+/*.new-form-1 .col-sm-3.col-xs-8 {
+
+    width: 100%;
+
+}
+
+.chak-bar .col-sm-4.col-xs-8 {
+
+    width: 100%;
+
+}
+
+.col-sm-4.col-xs-4.filter-btn {
+
+    width: 100%;
+
+}
+
+.links-btn.col-xs-4 {
+
+    width: 100%;
+
+}*/
+
+}
+ .form-control::-moz-placeholder, input::-moz-placeholder, textarea::-moz-placeholder {
+ color:#333;
+}
+.infobox-blue.infobox-dark {
+	margin-bottom:10px;
+}
+.selct-bx {
+	float: right !important;
+	width: 87%;
+}
+.config-form select, .config-form textarea {
+	width: 100%;
+}
+#upload_center_form input[type="file"] {
+	display: inline-block;
+}
+.form-control.search-query.datepicker {
+	width: 120px;
+}
+.employee-form select, .employee-form input[type="text"], .employee-form input[type="password"], .employee-form textarea {
+	margin-bottom: 12px;
+	width: 100%;
+}
+.employee-form textarea {
+	height: 34px;
+}
+.fees-structure input[type="text"] {
+	width: 100%;
+	margin: 0;
+	padding: 5px 2px;
+	font-size: 12px;
+}
+.fees-structure .table td, .fees-structure .table th {
+	padding: 5px 4px;
+	font-size: 12px;
+}
+.fees-structure .btn-sm {
+	padding: 2px 6px;
+}
+.page-content.class-fees {
+	padding: 4px 12px 10px;
+}
+.col-sm-1.student-image {
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  width: 10.2%;
+}
+.passport {
+}
+.col-sm-1.student-image .passport {
+  position: relative;
+  right: auto;
+  display: block;
+}
+.col-sm-1.student-image .passport:before {
+  padding-top: 133.73%;
+  display: block;
+  content: "";
+}
+.col-sm-1.student-image .passport img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  display: block;
+}
+.row.bottom-10.pos {
+    position: relative;
+}
+.main-tabs {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-tabs li{
+	display: inline-block;
+	background: #F2F2F2;
+	
+}
+.main-tabs li a{
+	display:inline-block;
+	padding: 0 10px;
+	line-height: 29px;
+}
+.inner-tabs {
+    list-style: none;
+    margin: 0;
+}
+/*.inner-tabs li{
+	margin:0px 0 5px;
+}
+.inner-tabs li a{
+	background: #438EB9;
+	display: block;
+	padding: 8px 20px;
+	color: #fff;
+}*/
+#tabs.ui-tabs .ui-tabs-panel {
+    padding: 1em 0;
+}
+.students_filter .custom_select{
+	width:112px;
+}
+.entry_form .result div{
+	font-size:16px;
+	padding:5px;
+	margin-bottom:5px;
+}
+.btn-top-right{
+	position: absolute;
+    top: 0;
+    right: 0;
+	margin:0;
+}
+.btn-right{
+	text-align:right;
+	margin:0px 0 10px;
+}
+.tabs-section{
+	position:relative;
+}
+.form-group .chosen-container {
+    width: 100% !important;
+}
